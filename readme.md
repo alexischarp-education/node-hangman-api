@@ -52,7 +52,7 @@ If no locale key is included in the request body, the API will default to using 
 
 ### What needs to be done
 
-**Create a hangman game using React** that calls an API to get a random word to be guessed. The project will be graded on **functionality**, **code quality** and **design and styling**.
+**Using React, create a hangman game** that calls an API to get a random word to be guessed. The project will be graded on **functionality**, **code quality**, **design and styling**.
 
 ### Grading Criteria
 
@@ -72,4 +72,4 @@ The code should be **well-structured** and **easy to read**. You should use prop
 
 #### Design and Styling
 
-The game should be **visually appealing** and **user-friendly**, with an intuitive user interface. You should demonstrate your **proficiency in CSS** but the use of an helping library is allowed.
+The game should be **visually appealing** and **user-friendly**, with an intuitive user interface. You should demonstrate your **proficiency in CSS** but the use of a helping library is allowed.
