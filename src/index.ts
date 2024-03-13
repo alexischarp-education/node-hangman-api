@@ -10,7 +10,7 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
   const locale: Locale = req.body.locale;
   res.send(getWord(locale));
 });
