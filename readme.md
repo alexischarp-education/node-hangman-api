@@ -10,10 +10,10 @@ To run the app, first install the dependencies by running `yarn`. Then, start th
 
 ### How to use
 
-To get a random word from the API, make a `GET` request to the root endpoint `/`. The API will return a JSON object with a single key word that contains the random word.
+To get a random word from the API, make a `POST` request to the root endpoint `/`. The API will return a JSON object with a single key word that contains the random word.
 
 ```http
-GET /
+POST /
 
 Response:
 {
@@ -26,7 +26,7 @@ Response:
 To specify the desired language, include a `locale` key in the request body with one of the supported language codes.
 
 ```http
-GET /
+POST /
 
 FormURLEncoded:
 {
