@@ -5,7 +5,7 @@ import type { Locale } from './types';
 import { getWord } from './service';
 
 const app = express();
-const port = process.env.port || 3000;
+const port = Number(process.env.port) || 3000;
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -15,6 +15,6 @@ app.post('/', (req, res) => {
   res.send(getWord(locale));
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`HangmanAPI up and running on port ${port}`);
 });
