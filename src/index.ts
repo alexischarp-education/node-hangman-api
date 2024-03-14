@@ -5,7 +5,7 @@ import type { Locale } from './types';
 import { getWord } from './service';
 
 const app = express();
-const port = 3000;
+const port = process.env.port || 3000;
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
