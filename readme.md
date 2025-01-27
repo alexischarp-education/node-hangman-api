@@ -6,7 +6,7 @@ This is a basic Express app that returns a random word in different languages.
 
 ### How to install
 
-To run the app, first install the dependencies by running `yarn`. Then, start the server by running `yarn dev`. The server will be listening on port **3001** by default.
+To run the app, first install the dependencies by running `npm install`. Then, start the server by running `npm run dev`. The server will be listening on port **3333** by default.
 
 ### How to use
 
