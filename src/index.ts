@@ -22,5 +22,5 @@ app.post('/', (req, res) => {
 
 app.listen(port, () => {
   console.log(`HangmanAPI up and running on port ${port}`);
-  console.log(`Currently in ${process.env.NODE_ENV} mode`);
+  console.log(`Currently in ${process.env.NODE_ENV || 'development'} mode`);
 });
